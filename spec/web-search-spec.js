@@ -12,7 +12,7 @@ describe('WebSearch', () => {
 
   beforeEach(() => {
     workspaceElement = atom.views.getView(atom.workspace);
-    activationPromise = atom.packages.activatePackage('web-search');
+    activationPromise = atom.packages.activatePackage('dertyp7214-web-search');
   });
 
   describe('when the web-search:toggle event is triggered', () => {
@@ -23,7 +23,7 @@ describe('WebSearch', () => {
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'web-search:toggle');
+      atom.commands.dispatch(workspaceElement, 'dertyp7214-web-search:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -37,7 +37,7 @@ describe('WebSearch', () => {
 
         let webSearchPanel = atom.workspace.panelForItem(webSearchElement);
         expect(webSearchPanel.isVisible()).toBe(true);
-        atom.commands.dispatch(workspaceElement, 'web-search:toggle');
+        atom.commands.dispatch(workspaceElement, 'dertyp7214-web-search:toggle');
         expect(webSearchPanel.isVisible()).toBe(false);
       });
     });
@@ -55,7 +55,7 @@ describe('WebSearch', () => {
 
       // This is an activation event, triggering it causes the package to be
       // activated.
-      atom.commands.dispatch(workspaceElement, 'web-search:toggle');
+      atom.commands.dispatch(workspaceElement, 'dertyp7214-web-search:toggle');
 
       waitsForPromise(() => {
         return activationPromise;
@@ -65,7 +65,7 @@ describe('WebSearch', () => {
         // Now we can test for view visibility
         let webSearchElement = workspaceElement.querySelector('.web-search');
         expect(webSearchElement).toBeVisible();
-        atom.commands.dispatch(workspaceElement, 'web-search:toggle');
+        atom.commands.dispatch(workspaceElement, 'dertyp7214-web-search:toggle');
         expect(webSearchElement).not.toBeVisible();
       });
     });

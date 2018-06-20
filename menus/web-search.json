@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle web-search",
-        "command": "web-search:toggle"
+        "command": "dertyp7214-web-search:toggle"
       }
     ]
   }
