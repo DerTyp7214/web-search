@@ -1,7 +1,7 @@
 {
   "name": "dertyp7214-web-search",
   "main": "./lib/dertyp7214-web-search",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "description": "WebSite shortcuts.",
   "keywords": [],
   "repository": "https://github.com/dertyp7214/web-search",
