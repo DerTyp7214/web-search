@@ -1,0 +1,22 @@
+{
+  "name": "web-search",
+  "main": "./lib/web-search",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/web-search",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "sitesJson": {
+      "description": "JSONArray of the websites.",
+      "type": "string",
+      "default": "[{\"title\": \"Google\", \"url\": \"http://google.com\"},{\"title\": \"GitHub\", \"url\": \"http://github.com\"},{\"title\": \"Stackoverflow\", \"url\": \"http://stackoverflow.com\"}]"
+    }
+  }
+}

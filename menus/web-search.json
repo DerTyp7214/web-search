@@ -1,0 +1,10 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle web-search",
+        "command": "web-search:toggle"
+      }
+    ]
+  }
+}
