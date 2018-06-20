@@ -1,7 +1,7 @@
 {
   "name": "web-search",
   "main": "./lib/web-search",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A short description of your package",
   "keywords": [],
   "repository": "https://github.com/dertyp7214/web-search",
