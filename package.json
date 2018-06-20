@@ -9,12 +9,14 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "^3.3.1"
+  },
   "configSchema": {
     "sitesJson": {
       "description": "JSONArray of the websites.",
       "type": "string",
-      "default": "[{\"title\": \"Google\", \"url\": \"http://google.com\"},{\"title\": \"GitHub\", \"url\": \"http://github.com\"},{\"title\": \"Stackoverflow\", \"url\": \"http://stackoverflow.com\"}]"
+      "default": "google.com, github.com, stackoverflow.com"
     }
   }
 }
