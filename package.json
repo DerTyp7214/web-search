@@ -1,6 +1,6 @@
 {
   "name": "dertyp7214-web-search",
-  "main": "./lib/web-search",
+  "main": "./lib/dertyp7214-web-search",
   "version": "1.7.0",
   "description": "WebSite shortcuts.",
   "keywords": [],

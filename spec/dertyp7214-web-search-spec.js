@@ -1,6 +1,6 @@
 'use babel';
 
-import WebSearch from '../lib/web-search';
+import WebSearch from '../lib/dertyp7214-web-search';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 //
@@ -15,11 +15,11 @@ describe('WebSearch', () => {
     activationPromise = atom.packages.activatePackage('dertyp7214-web-search');
   });
 
-  describe('when the web-search:toggle event is triggered', () => {
+  describe('when the dertyp7214-web-search:toggle event is triggered', () => {
     it('hides and shows the modal panel', () => {
       // Before the activation event the view is not on the DOM, and no panel
       // has been created
-      expect(workspaceElement.querySelector('.web-search')).not.toExist();
+      expect(workspaceElement.querySelector('.dertyp7214-web-search')).not.toExist();
 
       // This is an activation event, triggering it will cause the package to be
       // activated.
@@ -30,9 +30,9 @@ describe('WebSearch', () => {
       });
 
       runs(() => {
-        expect(workspaceElement.querySelector('.web-search')).toExist();
+        expect(workspaceElement.querySelector('.dertyp7214-web-search')).toExist();
 
-        let webSearchElement = workspaceElement.querySelector('.web-search');
+        let webSearchElement = workspaceElement.querySelector('.dertyp7214-web-search');
         expect(webSearchElement).toExist();
 
         let webSearchPanel = atom.workspace.panelForItem(webSearchElement);
@@ -51,7 +51,7 @@ describe('WebSearch', () => {
       // workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement);
 
-      expect(workspaceElement.querySelector('.web-search')).not.toExist();
+      expect(workspaceElement.querySelector('.dertyp7214-web-search')).not.toExist();
 
       // This is an activation event, triggering it causes the package to be
       // activated.
@@ -63,7 +63,7 @@ describe('WebSearch', () => {
 
       runs(() => {
         // Now we can test for view visibility
-        let webSearchElement = workspaceElement.querySelector('.web-search');
+        let webSearchElement = workspaceElement.querySelector('.dertyp7214-web-search');
         expect(webSearchElement).toBeVisible();
         atom.commands.dispatch(workspaceElement, 'dertyp7214-web-search:toggle');
         expect(webSearchElement).not.toBeVisible();
