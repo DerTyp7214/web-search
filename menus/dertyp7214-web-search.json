@@ -4,6 +4,14 @@
       {
         "label": "Toggle web-search",
         "command": "dertyp7214-web-search:toggle"
+      },
+      {
+        "label": "To Upper Case",
+        "command": "dertyp7214-web-search:upperCase"
+      },
+      {
+        "label": "To LowerCase",
+        "command": "dertyp7214-web-search:lowerCase"
       }
     ]
   }
