@@ -17,6 +17,11 @@
       "description": "JSONArray of the websites.",
       "type": "string",
       "default": "google.com, github.com, stackoverflow.com, npmjs.com"
+    },
+    "envUrl": {
+      "description": "URL for the `env.json`",
+      "type": "string",
+      "default": ""
     }
   }
 }

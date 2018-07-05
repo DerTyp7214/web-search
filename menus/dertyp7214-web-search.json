@@ -20,6 +20,10 @@
       {
         "label": "Copy JSON of modules to Clipboard",
         "command": "dertyp7214-web-search:createModuleJSON"
+      },
+      {
+        "label": "Put URL in env.json",
+        "command": "dertyp7214-web-search:putUrlInEnv"
       }
     ]
   }
