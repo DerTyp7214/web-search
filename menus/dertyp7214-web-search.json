@@ -32,6 +32,10 @@
       {
         "label": "Put Clean URL in env.json",
         "command": "dertyp7214-web-search:putUrlInEnvClean"
+      },
+      {
+        "label": "Cleanup JSON",
+        "command": "dertyp7214-web-search:cleanUpJSON"
       }
     ]
   }
