@@ -13,10 +13,15 @@
     "jquery": "^3.3.1"
   },
   "configSchema": {
-    "envUrl": {
+    "envUrlLocal": {
+      "description": "Local URL for the `env.json`",
+      "type": "string",
+      "default": "Local"
+    },
+    "envUrlPublic": {
       "description": "URL for the `env.json`",
       "type": "string",
-      "default": "URL"
+      "default": "Public"
     },
     "sitesJson": {
       "description": "JSONArray of the websites.",

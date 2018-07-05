@@ -22,8 +22,12 @@
         "command": "dertyp7214-web-search:createModuleJSON"
       },
       {
-        "label": "Put URL in env.json",
-        "command": "dertyp7214-web-search:putUrlInEnv"
+        "label": "Put Local URL in env.json",
+        "command": "dertyp7214-web-search:putUrlInEnvLocal"
+      },
+      {
+        "label": "Put Public URL in env.json",
+        "command": "dertyp7214-web-search:putUrlInEnvPublic"
       }
     ]
   }
