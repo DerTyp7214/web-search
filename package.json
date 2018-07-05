@@ -1,5 +1,5 @@
 {
-  "name": "dertyp7214-web-search",
+  "name": "Web Search",
   "main": "./lib/dertyp7214-web-search",
   "version": "1.30.0",
   "description": "WebSite shortcuts.",
@@ -16,7 +16,7 @@
     "sitesJson": {
       "description": "JSONArray of the websites.",
       "type": "string",
-      "default": "google.com, github.com, stackoverflow.com"
+      "default": "google.com, github.com, stackoverflow.com, npmjs.com"
     }
   }
 }
