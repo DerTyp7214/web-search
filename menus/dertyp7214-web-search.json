@@ -19,7 +19,7 @@
       },
       {
         "label": "Copy JSON of modules to Clipboard",
-        "command": "dertyp7214-web-search:creatModuleJSON"
+        "command": "dertyp7214-web-search:createModuleJSON"
       }
     ]
   }
