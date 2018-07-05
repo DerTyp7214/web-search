@@ -28,6 +28,10 @@
       {
         "label": "Put Public URL in env.json",
         "command": "dertyp7214-web-search:putUrlInEnvPublic"
+      },
+      {
+        "label": "Put Clean URL in env.json",
+        "command": "dertyp7214-web-search:putUrlInEnvClean"
       }
     ]
   }

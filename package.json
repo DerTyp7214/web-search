@@ -23,6 +23,11 @@
       "type": "string",
       "default": "Public"
     },
+    "envUrlClean": {
+      "description": "Clean URL for the `env.json`",
+      "type": "string",
+      "default": "Clean"
+    },
     "sitesJson": {
       "description": "JSONArray of the websites.",
       "type": "string",
