@@ -12,6 +12,14 @@
       {
         "label": "To LowerCase",
         "command": "dertyp7214-web-search:lowerCase"
+      },
+      {
+        "label": "Search Modules",
+        "command": "dertyp7214-web-search:searchModules"
+      },
+      {
+        "label": "Copy JSON of modules to Clipboard",
+        "command": "dertyp7214-web-search:creatModuleJSON"
       }
     ]
   }
