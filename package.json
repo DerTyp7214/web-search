@@ -10,7 +10,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.3.1",
+    "querystring": "^0.2.0",
+    "websocket": "^1.0.24"
   },
   "configSchema": {
     "envUrlLocal": {
