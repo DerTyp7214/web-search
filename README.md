@@ -1,3 +1,3 @@
 # web-search
 
-## For recieving update notifications install `notify-atom` and send yout ip in local network
+## For recieving update notifications install `notify-atom` and send your ip in local network
