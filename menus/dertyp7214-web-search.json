@@ -22,6 +22,14 @@
         "command": "dertyp7214-web-search:createModuleJSON"
       },
       {
+        "label": "Fill Custom Replacements",
+        "command": "dertyp7214-web-search:putCustomReplacement"
+      },
+      {
+        "label": "Clean Custom Replacements",
+        "command": "dertyp7214-web-search:putCleanCustomReplacement"
+      },
+      {
         "label": "Put Local URL in env.json",
         "command": "dertyp7214-web-search:putUrlInEnvLocal"
       },
