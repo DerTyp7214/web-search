@@ -30,11 +30,6 @@
       "type": "string",
       "default": "Clean"
     },
-    "putCustomReplacement": {
-      "description": "Custom replacement for `custom json`",
-      "type": "string",
-      "default": "{\"replacements\": [{\"file\": \"env.json\", \"path\": \"testObj/testObj2\", \"key\": \"test\", \"clean\": \"empty\", \"filled\": \"filled\"}]}"
-    },
     "sitesJson": {
       "description": "JSONArray of the websites.",
       "type": "string",
