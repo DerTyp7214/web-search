@@ -44,6 +44,10 @@
       {
         "label": "Cleanup JSON",
         "command": "dertyp7214-web-search:cleanUpJSON"
+      },
+      {
+        "label": "Copy IBAN",
+        "command": "dertyp7214-web-search:copyIBAN"
       }
     ]
   }
